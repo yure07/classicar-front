@@ -13,8 +13,11 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      fontFamily: {
-        
+      colors: {
+        classicarPrimaryBgColor: 'var(--classicar-primary-bg-color)',
+        classicarPrimaryLightColor: 'var(--classicar-primary-light-color)',
+        classicarSecondaryLightColor: 'var(--classicar-secondary-light-color)',
+        classicarDarkColor: 'var(--classicar-dark-color)'
       }
     },
   },

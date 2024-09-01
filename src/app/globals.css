@@ -5,6 +5,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+  :root{
+    --classicar-primary-bg-color: #F4D761;
+    --classicar-primary-light-color: #FFFFFF;
+    --classicar-secondary-light-color: #CCCCCC;
+    --classicar-dark-color: #000000;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
